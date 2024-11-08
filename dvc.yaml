@@ -1,7 +1,7 @@
 stages:
   fig-from-excel:
     cmd: calkit office excel-chart-to-png data.xlsx --sheet=1 --chart-index=0
-      --output figures/chart.png
+      figures/chart.png
     deps:
       - data.xlsx
     outs:
