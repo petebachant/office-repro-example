@@ -5,20 +5,20 @@ stages:
     deps:
     - path: data.xlsx
       hash: md5
-      md5: 6eaf9114d0f2e0095fc8b56ceebcf9f1
-      size: 14948
+      md5: f190fa2f26c7b88b9345c26d9372338a
+      size: 15067
     outs:
     - path: figures/chart.png
       hash: md5
-      md5: f37e9a623d3bd68d13dc9376da1c89a7
-      size: 7280
+      md5: 763c574711a75298bab67f81b41591d8
+      size: 7479
   word-to-pdf:
     cmd: calkit office word-to-pdf paper.docx paper.pdf
     deps:
     - path: figures/chart.png
       hash: md5
-      md5: f37e9a623d3bd68d13dc9376da1c89a7
-      size: 7280
+      md5: 763c574711a75298bab67f81b41591d8
+      size: 7479
     - path: paper.docx
       hash: md5
       md5: 9b07cdd627db7861cf0ee1fd96189c5f
@@ -26,5 +26,5 @@ stages:
     outs:
     - path: paper.pdf
       hash: md5
-      md5: 318327a2d82d8ebc16d94610b0f63a9c
-      size: 448639
+      md5: d1fe8870ebf6b7290c02ea0ef854f2a4
+      size: 449202
