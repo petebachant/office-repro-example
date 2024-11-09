@@ -12,3 +12,19 @@ stages:
       hash: md5
       md5: f37e9a623d3bd68d13dc9376da1c89a7
       size: 7280
+  word-to-pdf:
+    cmd: calkit office word-to-pdf paper.docx paper.pdf
+    deps:
+    - path: figures/chart.png
+      hash: md5
+      md5: f37e9a623d3bd68d13dc9376da1c89a7
+      size: 7280
+    - path: paper.docx
+      hash: md5
+      md5: 9b07cdd627db7861cf0ee1fd96189c5f
+      size: 153891
+    outs:
+    - path: paper.pdf
+      hash: md5
+      md5: 318327a2d82d8ebc16d94610b0f63a9c
+      size: 448639
