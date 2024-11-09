@@ -6,3 +6,10 @@ stages:
       - data.xlsx
     outs:
       - figures/chart.png
+  word-to-pdf:
+    cmd: calkit office word-to-pdf paper.docx paper.pdf
+    deps:
+      - paper.docx
+      - figures/chart.png
+    outs:
+      - paper.pdf
