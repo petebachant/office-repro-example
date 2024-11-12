@@ -1,3 +1,12 @@
-project:
-  title: A reproducible workflow using Microsoft Office
-  owner: petebachant
+title: A reproducible workflow using Microsoft Office
+owner: petebachant
+figures:
+  - path: figures/chart.png
+    stage: fig-from-excel
+    title: This is the figure
+    description: We extracted this from Microsoft Excel as part of the pipeline.
+publications:
+  - path: paper.pdf
+    stage: word-to-pdf
+    title: This is the paper
+    description: Here we discuss our work.

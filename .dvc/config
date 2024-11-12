@@ -2,5 +2,5 @@
     autostage = true
     remote = calkit
 ['remote "calkit"']
-    url = https://api.calkit.io/projects/petebachant/a-reproducible-workflow-using-microsoft-office/dvc
+    url = https://api.calkit.io/projects/petebachant/office-repro-example/dvc
     auth = custom
