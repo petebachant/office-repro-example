@@ -6,16 +6,20 @@ stages:
     deps:
     - path: data.xlsx
       hash: md5
-      md5: 1e8bc2d1d823fb33d94d11e0f5ed199c
-      size: 15247
+      md5: 3225fdc982b310e82003c22e0ea197ca
+      size: 15214
     outs:
     - path: figures/chart.png
       hash: md5
-      md5: 22afdb58b6d85a42dfa1c1d1e0c5bee1
-      size: 28192
+      md5: 06feb2f4f6c143ad4a84b9f58b16b4b9
+      size: 27480
   export-pdf:
     cmd: calkit office word-to-pdf "paper.docx" --output "paper.pdf"
     deps:
+    - path: figures/chart.png
+      hash: md5
+      md5: 06feb2f4f6c143ad4a84b9f58b16b4b9
+      size: 27480
     - path: paper.docx
       hash: md5
       md5: 825444830e553103cca217b7f71aa7db
@@ -23,5 +27,5 @@ stages:
     outs:
     - path: paper.pdf
       hash: md5
-      md5: 49b889a12e57697814b954abbfdcf5c7
-      size: 455105
+      md5: d1e017b8252f4973c77ce7b2730842b6
+      size: 454034
