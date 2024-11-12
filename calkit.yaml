@@ -11,3 +11,5 @@ publications:
     title: Investigation of reproducibility
     description: In this paper we look at whether or not Microsoft Office
       has any place in a reproducible research workflow.
+questions:
+  - Does Microsoft Office have any place in a reproducible research workflow?
