@@ -1,2 +1,7 @@
 title: A reproducible workflow using Microsoft Office
 owner: petebachant
+figures:
+  - path: figures/chart.png
+    stage: extract-chart
+    title: The chart
+    description: This chart shows the data as a line.

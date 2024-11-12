@@ -1,0 +1,8 @@
+stages:
+  extract-chart:
+    cmd: calkit office excel-chart-to-image "data.xlsx" --sheet=1 --chart-index=0
+      "figures/chart.png"
+    deps:
+      - data.xlsx
+    outs:
+      - figures/chart.png
