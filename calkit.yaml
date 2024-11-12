@@ -5,3 +5,9 @@ figures:
     stage: extract-chart
     title: The chart
     description: This chart shows the data as a line.
+publications:
+  - path: paper.pdf
+    stage: export-pdf
+    title: Investigation of reproducibility
+    description: In this paper we look at whether or not Microsoft Office
+      has any place in a reproducible research workflow.
