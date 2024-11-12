@@ -1,0 +1,15 @@
+schema: '2.0'
+stages:
+  extract-chart:
+    cmd: calkit office excel-chart-to-image "data.xlsx" --sheet=1 --chart-index=0
+      "figures/chart.png"
+    deps:
+    - path: data.xlsx
+      hash: md5
+      md5: c00fade7cfa5b9582bf755bd25617653
+      size: 14995
+    outs:
+    - path: figures/chart.png
+      hash: md5
+      md5: 2a5b512a0912da677eabd9c97a118761
+      size: 23645
