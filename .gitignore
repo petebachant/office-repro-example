@@ -155,3 +155,4 @@ dmypy.json
 cython_debug/
 /data.xlsx
 /paper.docx
+/paper.pdf

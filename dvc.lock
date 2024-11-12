@@ -13,3 +13,15 @@ stages:
       hash: md5
       md5: 2a5b512a0912da677eabd9c97a118761
       size: 23645
+  export-pdf:
+    cmd: calkit office word-to-pdf "paper.docx" --output "paper.pdf"
+    deps:
+    - path: paper.docx
+      hash: md5
+      md5: 5430ac4370a799824a34d7ad63ee5faf
+      size: 170265
+    outs:
+    - path: paper.pdf
+      hash: md5
+      md5: c2db2b24564a00ebfa22d7b0423e84de
+      size: 452537
