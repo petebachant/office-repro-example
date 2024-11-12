@@ -6,13 +6,13 @@ stages:
     deps:
     - path: data.xlsx
       hash: md5
-      md5: c00fade7cfa5b9582bf755bd25617653
-      size: 14995
+      md5: 1e8bc2d1d823fb33d94d11e0f5ed199c
+      size: 15247
     outs:
     - path: figures/chart.png
       hash: md5
-      md5: 2a5b512a0912da677eabd9c97a118761
-      size: 23645
+      md5: 22afdb58b6d85a42dfa1c1d1e0c5bee1
+      size: 28192
   export-pdf:
     cmd: calkit office word-to-pdf "paper.docx" --output "paper.pdf"
     deps:
