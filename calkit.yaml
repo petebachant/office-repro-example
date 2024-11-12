@@ -13,3 +13,8 @@ publications:
       has any place in a reproducible research workflow.
 questions:
   - Does Microsoft Office have any place in a reproducible research workflow?
+datasets:
+  - path: data.xlsx
+    title: The data
+    description: This data was meticulously collected by typing the values
+      into Excel.
