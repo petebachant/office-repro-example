@@ -1,5 +1,8 @@
 title: A reproducible workflow using Microsoft Office
 owner: petebachant
+dependencies:
+  - word
+  - excel
 figures:
   - path: figures/chart.png
     stage: extract-chart
